@@ -47,7 +47,7 @@ typedef enum ImageObjectSortOrder{
         self.photos = [deletionArray copy];
         self.sortedData = [self sortData];
         [self.photoCollectionView deleteItemsAtIndexPaths:@[path]];
-        [self.photoCollectionView reloadData];
+        //[self.photoCollectionView reloadData];
         
         
         
